@@ -117,7 +117,7 @@ keyboard_symptoms.add(types.InlineKeyboardButton("Готово", callback_data='
 @bot.message_handler(commands = ['start'])
 def start(message):
 
-    bot.send_message(message.chat.id, 'hello world')
+    bot.send_message(message.chat.id, 'hello world v3')
 
     user_id = message.chat.id
     user_data[user_id] = {
