@@ -337,17 +337,17 @@ def create_document_from_template(data, user_id):
     
     # Динамическая маршрутизация по шаблонам
     if group == "Шум от транспорта":
-        template_name = "templates/template_type1.docx"
+        template_name = "template_type1.docx"
         authority_name = "ОГИБДД ОМВД России"
         authority_city_or_district = "Начальнику ОГИБДД ОМВД России по административному округу"
         authority_region_or_city = "Управлению ГИБДД"
     elif group == "Шум от стройки":
-        template_name = "templates/template_type2.docx"
+        template_name = "template_type2.docx"
         authority_name = "Государственная строительная инспекция"
         authority_city_or_district = "В Государственную строительную инспекцию и Администрацию округа"
         authority_region_or_city = "Департаменту градостроительной политики"
     else:
-        template_name = "templates/template_type3.docx"
+        template_name = "template_type3.docx"
         authority_name = "Государственная жилищная инспекция"
         authority_city_or_district = "Начальнику управления государственной жилищной инспекции"
         authority_region_or_city = "Государственной жилищной инспекции"
